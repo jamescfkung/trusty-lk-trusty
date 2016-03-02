@@ -15,7 +15,7 @@ MODULE_SRCS += \
 	$(LOCAL_DIR)/secondary_boot.S
 
 MEMBASE := 0x80000000
-MEMSIZE := 0x10000000	# 256MB
+MEMSIZE := 0x2100000	# 33MB
 
 MODULE_DEPS += \
 	dev/interrupt/arm_gic \
